@@ -1,0 +1,9 @@
+  instr aluFunc selB selC wrReg wrMem
+0 add     000    0     0    1     0
+1 sub     001    0     0    1     0
+2 xor     010    0     0    1     0
+3 or      011    0     0    1     0
+4 and     100    0     0    1     0
+8 addi    000    1     0    1     0
+9 lw      000    1     1    1     0
+a sw      000    1     X    0     1
